@@ -8,20 +8,31 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f7f8fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: flex-start;
+            padding: 20px;
+            align-items: center;
         }
         .welcome-container {
             font-size: 2em;
             color: #333;
+            text-align: center;
+            margin-bottom: 20px;
         }
         .emoji {
             font-size: 5em;
             color: #ffcc00;
+        }
+        .youtube-link {
+            font-size: 1.2em;
+            color: #1a73e8;
+            text-decoration: none;
+            position: absolute;
+            left: 20px;
+            top: 20px;
         }
     </style>
 </head>
@@ -30,5 +41,6 @@
         <p>Welcome Home</p>
         <div class="emoji">😊</div>
     </div>
+    <a href="https://www.youtube.com" class="youtube-link" target="_blank">Visit YouTube</a>
 </body>
 </html>
